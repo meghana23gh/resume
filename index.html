@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meghana KM - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #4b0082;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4b0082;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4b0082;
+      margin-bottom: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background-color: #fafafa;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .resume-btn {
+      background-color: #4b0082;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #4b0082;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, my name is Meghana KM and I am a Web Developer</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my personal portfolio where you can explore my projects, skills, and get in touch with me.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m a passionate web developer and machine learning enthusiast. I love building websites, exploring AI, and solving real-world problems through technology.</p>
+    <a class="resume-btn" href="resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Food Allergy Detection App</h3>
+        <p>An app that helps identify allergens in food using AI.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Resume Screener</h3>
+        <p>A tool to automatically screen resumes and rank them by relevance.</p>
+      </div>
+      <div class="project-card">
+        <h3>FolkSage Platform</h3>
+        <p>A web platform for documenting indigenous knowledge using multimedia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, Machine Learning</li>
+      <li>React, Git, Firebase</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: meghana@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/meghana-km" target="_blank">Meghana KM</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Meghana KM. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
